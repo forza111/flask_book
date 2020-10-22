@@ -1,0 +1,13 @@
+click
+Flask
+flask-mongoengine
+Flask-Script
+Flask-WTF
+itsdangerous
+Jinja2
+MarkupSafe
+mongoengine
+pymongo
+six
+Werkzeug
+WTForms

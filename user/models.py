@@ -13,3 +13,4 @@ class User(db.Document):
     meta={
         'indexes': ['username', 'email', '-created']
     }
+

@@ -21,7 +21,8 @@ def register():
             username=form.username.data,
             password=hashed_password,
             first_name=form.first_name.data,
-            last_name=form.last_name.data
+            last_name=form.last_name.data,
+            email=form.email.data
             )
         user.save()
         return "User registered"
